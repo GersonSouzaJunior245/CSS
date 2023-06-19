@@ -1,0 +1,35 @@
+header{
+    background-color: rgb(247, 247, 174);
+    text-align: center;
+    padding: 60px;
+}
+nav{
+    background-color: rgb(140, 140, 246);
+    flex: 20%;
+}
+main{
+    display: flex;
+    height: 400px;
+}
+article{
+    background-color: rgb(198, 255, 113);
+    padding: 20px;
+    margin: 1px;
+    flex: 50%;
+}
+aside{
+    background-color: rgb(142, 151, 255);
+    flex: 20%;
+}
+footer{
+    background-color: rgb(255, 255, 156);
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 700px){
+    nav{flex-direction: column;}
+}
+@media (max-width:700px){
+   article{flex-direction: column;} 
+}

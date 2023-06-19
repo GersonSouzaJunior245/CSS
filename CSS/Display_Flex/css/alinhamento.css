@@ -1,0 +1,19 @@
+.caixa > div{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    text-align: center;
+    width: 100px;
+    display: flex;
+}
+
+.caixa{
+    align-items:center;
+    background-color: blue;
+    display: flex;
+    height: 200px;
+    width: 900px;
+    justify-content: center;
+}
+
+
+

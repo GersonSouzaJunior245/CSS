@@ -1,0 +1,151 @@
+aside
+{
+    flex: 30%;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+aside> .fotopessoal
+{
+    height: 300px;
+    background-image: url(../ImagemPessoal/bryan-cranston-breaking-bad.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    color: #ffffff;
+    display: flex;
+    align-items: end;
+}
+
+aside > .infoPessoais
+{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center ;
+    margin: 1em 0 1em 1em;
+}
+
+.skills
+{
+    padding: 0 15px 0 0;
+}
+.skills> .TituloSkills
+{
+    display: flex;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center ;
+    margin: 1em 0 1em 1em;
+}
+.skills> .TituloSkills> h2
+{
+    padding-left: 7px;
+}
+
+.borda100
+{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ccccccce;
+}
+
+.habilidades > h3 
+{
+    text-align: center;
+    margin: 0em 1em 0em 1em;
+}
+.habilidades > div
+{
+    text-align: center;
+    color: #ffffff;
+}
+
+.languages
+{
+    padding: 0 15px 0 0;
+}
+.languages> .TituloLanguages
+{
+    display: flex;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center ;
+    margin: 1em 1em 0em 1em;
+}
+.languages> .TituloLanguages> h2
+{
+    padding-left: 7px;
+}
+.idiomas > h3 
+{
+    text-align: center;
+    margin: 1em 1em 0em 1em;
+}
+.idiomas > div
+{
+    text-align: center;
+    color: #ffffff;
+}
+
+.preenchimento1
+{
+    width: 90%;
+    background-color: rgb(5, 230, 91);
+    border-radius: 10px;
+    border: 1px solid  rgb(5, 230, 91);
+}
+.preenchimento2
+{
+    width: 80%;
+    background-color: rgb(5, 230, 91);
+    border-radius: 10px;
+    border: 1px solid  rgb(5, 230, 91);    
+}
+.preenchimento3
+{
+    width: 75%;
+    background-color: rgb(5, 230, 91);
+    border-radius: 10px;
+    border: 1px solid  rgb(5, 230, 91);    
+}
+.preenchimento4
+{
+    width: 50%;
+    background-color: rgb(5, 230, 91);
+    border-radius: 10px;
+    border: 1px solid  rgb(5, 230, 91);    
+}
+.preenchimento5
+{
+    width: 90%;
+    background-color: rgb(5, 230, 91);
+    border-radius: 10px;
+    border: 1px solid  rgb(5, 230, 91);
+}
+.preenchimento6
+{
+    width: 75%;
+    background-color: rgb(5, 230, 91);
+    border-radius: 10px;
+    border: 1px solid  rgb(5, 230, 91);    
+}
+aside> .habilidades
+{
+
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center ;
+    margin: 1em 1em 1em 1em;
+}
+aside> 
+{
+
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center ;
+    margin: 1em 1em 1em 1em;
+}

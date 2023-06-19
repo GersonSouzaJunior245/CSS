@@ -1,0 +1,21 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Calibri';
+}
+.fakeImagem{
+    background-image: url(/img/bandeiradafrança.png);
+    width: 100%;
+    margin-bottom: 2px;
+    background-color: blue;
+    height: 100vh;
+}
+header{
+    color: #000000;
+    text-align: center;
+    padding: 60px;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    max-width: 1100px;
+}
+

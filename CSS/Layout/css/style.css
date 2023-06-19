@@ -1,0 +1,56 @@
+.header{
+    border: 1px solid rgb(112, 0, 0);
+    height: 100px;
+    margin: auto;
+    background-color: rgb(99, 0, 0);
+}
+
+.nav{
+    border: 1px solid rgb(5, 45, 0);
+    height: 20px;
+    margin: auto;
+    background-color: rgb(1, 60, 9) ;
+}
+
+.main{
+    border: 1px solid rgb(0, 234, 255);
+    height: 400px;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(0, 255, 191);
+}
+
+.footer{
+    background-color: rgb(0, 0, 255);
+    border: 1px solid rgb(0, 0, 255);
+    height: 20px;
+    margin: auto;
+}
+
+.article{
+    background-color: rgb(255, 247, 0);
+    border: 1px solid rgb(238, 255, 0);
+    height: 300px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px ;
+
+}
+
+.aside{
+    background-color: rgb(13, 255, 0);
+    border: 1px solid rgb(89, 255, 0);
+    height: 40px;
+    margin: auto;
+    margin-top: 224px;
+
+}
+
+body{
+    background-color: rgb(140, 251, 255);
+    margin: auto; 
+    font-family: "calibri"; color: white;
+}
+
+.article{
+    font-family: "calibri"; color: rgb(0, 0, 0);} 

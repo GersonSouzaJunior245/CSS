@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, #FFC03A , #FB9852, #F44287);
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    min-width: 500px;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+header h1{
+    color: white;
+}
+.login ul{
+    display: flex;
+    text-align: center;
+    justify-content: end;
+    list-style: none;
+    color: white;
+    align-items: center;
+}
+.login a{
+    padding: 10px;
+}
+.login a:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: black;
+}
+
+.nav img{
+    padding: 1px;
+    display: flex;
+    text-align: center;
+}
+.nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    align-items: center;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav .link a{
+    padding: 10px;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 7px;
+    color: black;
+}
+a .icon{
+    padding: 0px;
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 700px;
+    min-width: 700px;
+    height: 100%;
+    margin: auto;
+    padding: 0px 30px;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+}
+h3{
+    color: lightslategray;
+}
+p{
+    font-size: 14px;
+}
+.twitter{
+    padding: 0px 60px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.main .homepage .img1 img{
+    width: 99%;
+    height: auto;
+    margin-left: 5px;
+}

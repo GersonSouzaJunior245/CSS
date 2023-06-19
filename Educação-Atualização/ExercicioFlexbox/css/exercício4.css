@@ -1,0 +1,72 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+    padding: 60px;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+main> section{
+    display: flex;
+    flex: 100%;
+    align-items: center;
+}
+
+.Hero{
+    background-color: rgb(189, 131, 244);
+    flex: 40%;
+
+    height: 400px;
+
+}
+.Main{
+    background-color: rgb(255, 255, 98) ;
+    flex: 40%;
+    max-width: 1100px;
+    height: 400px;
+}
+.Sidebar{
+    background-color: rgb(77, 255, 77);
+    flex: 60%;
+
+    height: 400px;
+}
+.Extra{
+    background-color: rgb(120, 120, 120);
+    flex: 60%;
+
+    height: 400px;
+}
+.sec{
+    flex: 40%;
+}
+section> div{
+    display: flex;
+    height: 700px;
+    flex: 50%;
+    width: 450px;
+    margin: auto;
+    align-items: center;
+
+}
+.img{
+    background-color: green;
+    flex: 80%;
+    width: 400px;
+    height: 100px;
+}
+.Posts{
+    background-color: rgb(255, 0, 225);
+    flex: 20%;
+    width: 400px;
+    height: 100px;
+}
+aside{
+    background-color: rgb(140, 140, 246);
+    flex: 20%;
+}

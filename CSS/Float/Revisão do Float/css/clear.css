@@ -1,0 +1,43 @@
+.img{
+    background-image: linear-gradient(50deg, #09ff00, rgb(255, 242, 0), rgb(255, 225, 0));
+    border: 3px solid rgb(2, 255, 238);
+    font-family:'Calibri';
+    height: 100px;
+    width: 200px;
+   
+
+
+}
+.img2{
+    background-image: linear-gradient(50deg, #09ff00, rgb(255, 242, 0), rgb(255, 225, 0));
+    border: 3px solid rgb(2, 255, 238);
+    font-family:'Calibri';
+    height: 100px;
+    width: 100px;
+
+
+}
+.div{
+    border: 3px solid rgb(2, 255, 238);
+    width: 100px;
+    padding: 100px;
+    
+}
+section{
+    border: 1px solid blue;
+    
+    
+}
+.img{
+float: right;
+}
+.título{
+    clear: right;
+}
+.img2{
+    float: right;
+}
+
+.clearfix{
+    overflow: auto;
+}

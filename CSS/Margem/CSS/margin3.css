@@ -1,0 +1,29 @@
+.nav{
+    border: 1px solid red;
+    background-color: aqua; 
+    margin: 25px 50px 75px 100px;
+    font-family: 'Calibri', 
+}
+
+.main{
+    border: 1px solid red;
+    background-color: aqua; 
+    margin: 25px 50px 75px 100px;
+    font-family: 'Calibri',
+}
+
+.article{
+    border: 1px solid red;
+    background-color: aqua; 
+    margin: 25px 50px 75px 100px;
+    font-family: 'Calibri',
+}
+
+.footer{
+    border: 1px solid red;
+    background-color: aqua; 
+    margin: 25px 50px 75px 100px;
+    font-family: 'Calibri',
+    width 300px;
+    margin: auto;
+}

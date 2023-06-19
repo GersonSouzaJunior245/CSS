@@ -1,0 +1,62 @@
+article{
+    flex: 70%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0em 0 0em 1em;
+}
+.TituloWorkExperience
+{
+    display: flex;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center ;
+    margin: 1em 0 1em 1em;
+}
+.TituloEducation
+{
+    display: flex;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center ;
+    margin: 1em 0 2em 1em;  
+}
+h3
+{
+    margin: 1em 0 2em 1em;   
+}
+p
+{
+    margin: 1em 0 2em 1em;    
+}
+h4{    margin: 1em 0 1em 1em;}
+.calendar
+{
+    display: flex;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center ;
+    margin: 1em 1em 1em 1em;
+  
+}
+
+h5
+{
+    color: #7BE495;
+}
+footer
+{
+    background-color: #fbfbfb71;
+}
+footer > p
+{
+
+    text-align: center;
+}
+footer > .img
+{
+    justify-content: center;
+}
+.img
+{
+    display: flex;
+}

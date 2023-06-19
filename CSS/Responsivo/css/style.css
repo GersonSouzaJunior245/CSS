@@ -1,0 +1,54 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #333;
+    color: #fff;
+}
+
+h2
+{
+    text-align: center;
+}
+.header{
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+}
+.col
+{
+    float: left;
+    padding: 8px;
+    width: 30%;
+    margin: auto;
+    
+}
+.price-box
+{
+    background-color: #fff;
+    color: #333;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+}
+.price-box li{
+    padding: 20px;
+    border-bottom: 20px solid #eee;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(0, 255, 0);
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media (max-width: 320px)
+{
+    .col{
+        width: 100%;
+    }
+}

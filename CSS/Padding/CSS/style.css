@@ -1,0 +1,30 @@
+body{
+    
+    color: aliceblue;
+    background-image: linear-gradient(50deg, #1100fa, rgb(0, 255, 255));
+}
+
+
+
+section{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 70px;
+}
+article h1{
+    text-align: center;
+}
+article .ParágrafodoArtcle{
+    text-align: right;
+}
+
+article .boxPadding{
+    border: 1px solid rgb(98, 245, 110);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.box2 .boxPadding{
+    border: 1px solid blue;
+    padding: 25px 50px 75px 100px;
+}
